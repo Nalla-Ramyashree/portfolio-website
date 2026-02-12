@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: navy;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(224, 32, 173);
+}

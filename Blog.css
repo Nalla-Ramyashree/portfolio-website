@@ -1,0 +1,19 @@
+.heading{
+    color:navy;
+    padding-left: 30px;
+}
+
+#blogcont {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#myblog{
+    background-color: navy;
+    color: white;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+}

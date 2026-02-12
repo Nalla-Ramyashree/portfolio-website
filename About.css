@@ -1,0 +1,42 @@
+#about{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.abtme{
+    color: navy;
+}
+.about-content {
+    margin-left: 150px;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+#htmlskill{
+    height: 10px;
+    width: 300px;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#cssskill{
+    height: 10px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#jsskill{
+    height: 10px;
+    width: 250px;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#rskill{
+    height: 10px;
+    width: 230px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 2px solid black;
+}

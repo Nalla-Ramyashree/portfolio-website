@@ -1,0 +1,35 @@
+#contact{
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 100px;
+    color: navy;
+    font-size: 20px;
+
+}
+
+#contact .i{
+    color: black;
+}
+
+.linkdin{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.git{
+    height: 50px;
+}
+
+.mail{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
