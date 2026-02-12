@@ -1,14 +1,22 @@
-*{
-    margin: 0px;
-    padding: 0px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html, body {
+    height: 100%;
+}
+
 #sidebar{
     background-color: grey;
-    height: 530px;
+    height: 100vh;
     width: 150px;
     position: fixed;
     left: -200px;
 }
+
 #sidebar ul li{
     list-style: none;
     padding-top: 50px;
@@ -55,7 +63,7 @@
     border: 2px solid black;
 }
 #pic{
-    height: 530px;
+    height: 100vh;
     padding-right: 30px;
     position: static;
 }
@@ -68,6 +76,9 @@
     position: fixed;
     top: 10px;
     left: 8px;
+}
+#sidebar {
+    font-family: 'Inter', sans-serif;
 }
 #sidebar.active {
     left: 0;

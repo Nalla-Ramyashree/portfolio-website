@@ -1,7 +1,13 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
 #about{
     padding-left: 70px;
     padding-right: 70px;
     font-size: 20px;
+}
+#sidebar {
+    font-family: 'Inter', sans-serif;
 }
 .abtme{
     color: navy;
@@ -11,32 +17,34 @@
     padding: 40px;
     margin-top: 40px;
 }
-
 #htmlskill{
     height: 10px;
     width: 300px;
-    background-color: red;
+    background-color: rgb(20, 89, 103);
     border-radius: 10px;
     border: 2px solid black;
 }
 #cssskill{
     height: 10px;
     width: 300px;
-    background-color: yellow;
+    background-color: rgb(33, 75, 101);
     border-radius: 10px;
     border: 2px solid black;
 }
 #jsskill{
     height: 10px;
     width: 250px;
-    background-color: red;
+    background-color: rgb(20, 89, 103);
     border-radius: 10px;
     border: 2px solid black;
 }
 #rskill{
     height: 10px;
     width: 230px;
-    background-color: yellow;
+    background-color: rgb(20, 89, 103);
     border-radius: 10px;
     border: 2px solid black;
+}
+#me{
+    font-size: 20px
 }

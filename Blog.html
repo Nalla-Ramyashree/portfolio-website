@@ -2,22 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Blog.css">
-    <title>Document</title>
+    <title>My Blog</title>
+
+    <link rel="stylesheet" href="blog.css">
     <link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
+
 <body>
-    <h1 id="myblog">My Blog</h1>
-    <div id="blogcont">
-        <div id="sidebar">
-            <div id="menu-btn">
-            <i class="fa-solid fa-bars"></i>
-            </div>
+    <div id="sidebar">
         <ul>
-            <li id="home"><a href="home.html">Home</a></li>
+            <li id="home"><a href="index.html">Home</a></li>
             <li><a href="About.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="Portfolio.html">Portfolio</a></li>
@@ -25,31 +22,39 @@
             <li><a href="Contact.html">Contact</a></li>
         </ul>
     </div>
-    <p>
-        <h2 class="heading">Front-End Thinking</h2>
-    Building Interfaces with Structure in Mind
-    A well-built interface starts with a clear structure. Before styles or interactions are added, the way content is organized in HTML plays a major role in how maintainable and scalable a project becomes.
-    This post explores the importance of writing clean, structured markup using semantic elements and logical grouping. Clear structure makes styling more predictable, reduces layout issues, and improves overall readability of the codebase. It also helps when projects grow or when multiple developers work on the same code.
-    Focusing on structure early allows front-end development to remain organized and adaptable, especially as designs evolve over time
-    </p>
 
-    <p> 
-       <h2 class="heading">Design & UI Awareness</h2>
-    Designing Interfaces That Feel Simple to Use
-    Good user interfaces are not defined by how much they contain, but by how easily users can understand and navigate them. Simplicity in design helps reduce cognitive load and creates a more comfortable experience.
-    This article discusses the role of spacing, alignment, color consistency, and visual hierarchy in interface design. Thoughtful use of whitespace and clear typography can guide attention naturally, while consistent styling builds trust and familiarity.
-    Design decisions, even small ones, influence how users perceive and interact with a website. A clean and intentional UI often feels effortless, even when complex logic exists behind the scenes.
-    </p>
+    <div id="menu-btn">
+    <i class="fa-solid fa-bars"></i>
+    </div>
 
-    <p>
-        <h2 class="heading">The Importance of Consistency in Web Design</h2>
-    Consistency is one of the most important principles in web design. From button styles to spacing and typography, repeated patterns help users quickly understand how an interface works.
-    This post looks at how consistent layouts, colors, and interactions improve usability and reduce confusion. When users recognize familiar elements across a website, they can navigate more confidently without needing to relearn interactions.
-    Maintaining consistency also benefits development, making styling decisions easier and reducing unnecessary variations. A consistent design system creates clarity for both users and developers.
-    </p>
-</div>
+    <div class="container">
+        <h1 class="main-title">My Blog</h1>
+        <div class="post">
+            <h2>Front-End Thinking</h2>
+            <p>
+                A well-built interface starts with a clear structure. Writing clean and organized HTML 
+                makes styling easier and keeps projects maintainable as they grow.
+            </p>
+        </div>
+
+        <div class="post">
+            <h2>Design & UI Awareness</h2>
+            <p>
+                Good user interfaces are simple and easy to understand. Proper spacing, alignment, 
+                and typography help guide users naturally through a website.
+            </p>
+        </div>
+
+        <div class="post">
+            <h2>The Importance of Consistency in Web Design</h2>
+            <p>
+                Consistency improves usability. Repeated patterns in layout and color make navigation 
+                smoother and create a professional experience.
+            </p>
+        </div>
+
+    </div>
 <script src="index.js"></script>
 
 </body>
-
 </html>

@@ -1,19 +1,38 @@
-.heading{
-    color:navy;
-    padding-left: 30px;
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
 }
 
-#blogcont {
+.container {
+    width: 80%;
     max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
+    margin: 60px auto;
 }
 
-#myblog{
+.main-title {
+    text-align: center;
     background-color: navy;
     color: white;
-    height: 20px;
-    text-align: center;
-    align-items: center;
     padding: 20px 0;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+.post {
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.post h2 {
+    color: navy;
+    margin-bottom: 10px;
+}
+
+.post p {
+    line-height: 1.6;
+    font-size: 16px;
 }
